@@ -13,7 +13,7 @@ public class HomeTest extends BaseTest {
 	public void invalidLoginTest_InvalidUserNameInvalidPassword() throws InterruptedException, IOException {
 		HomePage homePage = new HomePage(driver, wait);
 		SearchPage searchPage = new SearchPage(driver, wait);
-
+ 
 		homePage.goToHomePage();
 		homePage.searchAction();
 		homePage.fillText();

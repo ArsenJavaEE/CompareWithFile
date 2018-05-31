@@ -15,12 +15,12 @@ public class HomePage extends BasePage {
 	String serchWord = "//a[@title='Поиск']";
 	String elementLocation = "//form[@class='search-form active']/input[@name='search_form_type[term]']";
 	String text = "DEVELOPER";
-
+ 
 	public void goToHomePage() {
 		driver.get(baseURL);
 		// driver.navigate().to(baseURL)
-	}
-
+	 } 
+ 
 	public void goToSearchPage() {
 		driver.get(serchWord);
 

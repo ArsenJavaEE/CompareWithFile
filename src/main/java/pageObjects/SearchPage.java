@@ -43,7 +43,7 @@ public class SearchPage extends BasePage {
 				}
 
 			}
-			
+
 		} else {
 
 			WebDriver driver = new ChromeDriver();

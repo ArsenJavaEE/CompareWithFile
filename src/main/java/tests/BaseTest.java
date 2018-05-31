@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BaseTest {
 	public WebDriver driver;
 	public WebDriverWait wait;
-
+ 
 	@BeforeClass
 	public void setup() {
 		// Create a Chrome driver. All test and page classes use this driver.
